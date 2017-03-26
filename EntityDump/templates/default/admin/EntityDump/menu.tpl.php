@@ -1,0 +1,1 @@
+<li <?php if (strpos($_SERVER['REQUEST_URI'], '/admin/entitydump/') !== false) echo 'class="active"'; ?>><a href="<?=\Idno\Core\site()->config()->getDisplayURL(); ?>admin/entitydump/">Entity Dump</a></li>
